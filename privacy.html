@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YTPlayer プライバシーポリシー</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>YTPlayer プライバシーポリシー</h1>
+<p class="muted">最終更新日：2026年9月30日</p>
+
+<h2>1. YouTube API サービスの利用</h2>
+<p>本アプリは YouTube API サービスを利用しています。本アプリを利用することで、<a href="https://www.youtube.com/t/terms">YouTube 利用規約</a>に同意したものとみなされます。YouTube API サービスを通じて Google が取得する情報は、<a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>に従って取り扱われます。</p>
+
+<h2>2. 取得する情報</h2>
+<p>利用者が Google アカウントでログインし、アクセスを許可した場合に限り、本アプリは YouTube Data API を通じて次の情報を読み取ります。</p>
+<ul>
+  <li>利用者の YouTube チャンネルの基本情報</li>
+  <li>登録チャンネルの一覧</li>
+  <li>高評価した動画の一覧</li>
+  <li>利用者の再生リスト</li>
+</ul>
+<p>要求する権限は、YouTube アカウントの閲覧（<code>youtube.readonly</code>）のみです。本アプリがコメントの投稿、評価の変更、動画のアップロードなど、利用者のアカウントの内容を変更することはありません。</p>
+
+<h2>3. 端末内に保存する情報</h2>
+<ul>
+  <li>ログイン状態を保つための認証トークン：iOS のキーチェーンに暗号化して保存します。</li>
+  <li>アプリの設定、アプリ内で再生した動画の履歴、利用者が作成したタグやメモ：端末内にのみ保存します。</li>
+  <li>YouTube API から取得した情報（動画のタイトル、サムネイルなど）：表示を速くするために、一時的に端末内へ保存することがあります。保存期間は最長30日で、30日を超えたものは再取得するか削除します。</li>
+</ul>
+
+<h2>4. 情報の送信と共有</h2>
+<p>本アプリは独自のサーバーを持っていません。上記の情報を開発者や第三者へ送信・販売・共有することはありません。また、広告の配信やアクセス解析のための仕組みも組み込んでいません。</p>
+<p>本アプリの通信先は、Google／YouTube のサーバーのみです（ログイン、YouTube Data API、埋め込みプレーヤー、サムネイル画像）。埋め込みプレーヤーでは、YouTube が Cookie などを使用することがあります。その取り扱いは Google プライバシーポリシーに従います。</p>
+
+<h2>5. Google API サービスのユーザーデータに関するポリシー</h2>
+<p>Google API から受け取った情報の使用と他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>（限定使用の要件を含む）に従います。</p>
+
+<h2>6. 情報の削除とアクセス権の取り消し</h2>
+<ul>
+  <li>アプリ内でログアウトすると、認証トークンを端末から削除し、Google 側の許可も取り消します。</li>
+  <li>アプリを削除すると、端末内に保存したすべての情報が削除されます。</li>
+  <li>Google アカウントの<a href="https://myaccount.google.com/permissions">セキュリティ設定（サードパーティ製のアプリとサービス）</a>からも、本アプリのアクセス権をいつでも取り消せます。</li>
+</ul>
+
+<h2>7. 変更</h2>
+<p>取得する情報や権限を変更する場合は、このページを更新し、最終更新日を改めます。</p>
+
+<h2>8. お問い合わせ</h2>
+<p><a href="https://github.com/yusya1029/ytplayer/issues">GitHub Issues</a> からご連絡ください。</p>
+</main>
+</body>
+</html>
